@@ -4,14 +4,13 @@
 \alias{trans}
 \title{trans}
 \usage{
-trans(l, n_theta = 3, plot = F)
+trans(l, n_theta = 3)
 }
 \arguments{
 \item{l}{A list with vectors or a vector to transform}
 
-\item{n_theta}{Number of theta parameters to use in the transformation}
-
-\item{plot}{Plot original and transformed distribition together with various diagnostic plots.}
+\item{n_theta}{A integer specifying the number of theta parameters to use in the transformation.
+If a vector of integers is supplied, there will be one transformation per element.}
 }
 \value{
 Returns a data frame with the transformed vectors in long format.

@@ -43,7 +43,7 @@ get.h.pars <- function(y = NULL, n_th = NULL, trace = F) {
     pars[i] <- fit$estimate
   }
 
-  if (T) {
+  if (trace) {
     cat("Parameter estimates: \n")
     for (i in 1:n_th) {
       cat("Theta", i - 1, ":", pars[i], "\n")
