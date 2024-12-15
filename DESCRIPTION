@@ -2,9 +2,9 @@ Package: quantflex
 Title: quantflex
 Version: 0.0.0.9000
 Authors@R: 
-    c(person("Matteo", "Bottai", , "matteo.bottai@ki.se", role = c("cre"),
+    c(person("Matteo", "Bottai", , "matteo.bottai@ki.se", role = c("aut"),
            comment = c(ORCID = "YOUR-ORCID-ID")),
-      person("Martin", "Thorsson", , "martin.thorsson@gu.se", role = c("aut"),
+      person("Martin", "Thorsson", , "martin.thorsson@gu.se", role = c("cre","aut"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
            )
 Description: Estimation of conditional and unconditional quantiles and conditional trajectory quantiles.

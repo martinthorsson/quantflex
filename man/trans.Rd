@@ -7,13 +7,14 @@
 trans(l, n_theta = 3)
 }
 \arguments{
-\item{l}{A list with vectors or a vector to transform}
+\item{l}{A vector or list of vectors with that will be transformed to a gaussian distribution.}
 
 \item{n_theta}{A integer specifying the number of theta parameters to use in the transformation.
 If a vector of integers is supplied, there will be one transformation per element.}
 }
 \value{
-Returns a data frame with the transformed vectors in long format.
+Returns an object containing a data frame with the transformed values, a data frame with predictions and the original
+vector or list of vectors. Use \code{\link[=plot]{plot()}} on this object to plot diagnostics.
 }
 \description{
 Transforms a vector or a list of vectors to a gaussian distribution using a Taylor-like transformation function.

@@ -6,11 +6,12 @@
 #' trans
 #' @description
 #'  Transforms a vector or a list of vectors to a gaussian distribution using a Taylor-like transformation function.
-#' @param l A list with vectors or a vector to transform
+#' @param l A vector or list of vectors with that will be transformed to a gaussian distribution.
 #' @param n_theta A integer specifying the number of theta parameters to use in the transformation.
 #' If a vector of integers is supplied, there will be one transformation per element.
 #'
-#' @return Returns a data frame with the transformed vectors in long format.
+#' @return Returns an object containing a data frame with the transformed values, a data frame with predictions and the original
+#' vector or list of vectors. Use [plot()] on this object to plot diagnostics.
 #' @export
 #'
 #' @examples

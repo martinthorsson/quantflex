@@ -8,6 +8,10 @@
 \description{
 Estimation of conditional and unconditional quantiles and conditional trajectory quantiles.
 }
+\details{
+This is a very early version just including the transformation functions and associated diagnostic plots.
+To transform a vector or a list of vectors, use \link{trans}
+}
 \seealso{
 Useful links:
 \itemize{
@@ -17,11 +21,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Matteo Bottai \email{matteo.bottai@ki.se} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Martin Thorsson \email{martin.thorsson@gu.se} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 Authors:
 \itemize{
-  \item Martin Thorsson \email{martin.thorsson@gu.se} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+  \item Matteo Bottai \email{matteo.bottai@ki.se} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 }
 
 }
